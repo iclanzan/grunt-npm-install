@@ -15,6 +15,10 @@ module.exports = function(grunt) {
     var modules = Array.prototype.slice.call(arguments);
     var done = this.async();
 
+    var options = this.options({
+      cwd: ''
+    });
+
     function errorHandler(err) {
       if (err) {
         grunt.log.error(err);
@@ -26,6 +30,10 @@ module.exports = function(grunt) {
       if (err) {
         grunt.log.error(err);
         return;
+      }
+
+      if (options.cwd) {
+        npm.prefix = options.cwd;
       }
 
       npm.commands.install(modules, errorHandler);
