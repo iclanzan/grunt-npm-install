@@ -24,7 +24,7 @@ var exists = grunt.file.exists;
 */
 
 exports.npm_install = {
-  'npm-install': function(test) {
+  'npm-install': function (test) {
     test.expect(3);
 
     test.ok(exists('tmp/node_modules/jassi'), 'Dependencies should have been installed.');

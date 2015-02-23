@@ -8,10 +8,10 @@
 
 'use strict';
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   var npm = require('npm');
 
-  grunt.registerTask('npm-install', 'Install npm modules.', function() {
+  grunt.registerTask('npm-install', 'Install npm modules.', function () {
     var modules = Array.prototype.slice.call(arguments);
     var done = this.async();
 
