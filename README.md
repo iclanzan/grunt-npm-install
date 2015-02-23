@@ -41,6 +41,9 @@ grunt.registerTask('default', ['npm-install:lodash:async']);
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+### v0.2.0
+Fixed lint errors and bumped minor version because of NPM breaking changes.
+
 ### v0.1.2
 Updated NPM dependency to version ^2.5.1.
 
