@@ -59,7 +59,7 @@ module.exports = function(grunt) {
     'npm-install',
     'npm-install:q',
     'npm-install:lodash:async',
-    'chdir:' + process.cwd(),
+    'chdir:' + process.cwd().replace(/[A-Za-z]:\\/, '/'), // Windows friendly
     'nodeunit'
   ]);
 
