@@ -1,7 +1,7 @@
 {
   "name": "grunt-npm-install",
   "description": "Grunt task to install npm modules.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/iclanzan/grunt-npm-install",
   "author": {
     "name": "Sorin Iclanzan",
@@ -29,12 +29,12 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "npm": "~1.4.3"
+    "npm": "^2.5.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
     "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
