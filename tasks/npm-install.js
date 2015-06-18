@@ -28,7 +28,7 @@ module.exports = function (grunt) {
         return;
       }
 
-      npm.commands.install(modules, errorHandler);
+      npm.commands.update(modules, errorHandler);
     });
   });
 };
