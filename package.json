@@ -1,7 +1,7 @@
 {
   "name": "grunt-npm-install",
   "description": "Grunt task to install npm modules.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/iclanzan/grunt-npm-install",
   "author": {
     "name": "Sorin Iclanzan",
