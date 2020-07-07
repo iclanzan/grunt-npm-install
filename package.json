@@ -29,7 +29,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "npm": "^3.7.2"
+    "npm": "^6.14.6"
   },
   "devDependencies": {
     "grunt": ">=0.4.1",
